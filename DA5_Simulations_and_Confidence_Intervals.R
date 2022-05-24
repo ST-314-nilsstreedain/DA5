@@ -7,7 +7,7 @@
 # file.choose() will open a search window for you to select the file.
 # Note your data is called CarData.Population
 
-CarData.Population <- read.csv(file.choose(), header = TRUE)
+CarData.Population <- read.csv('EpaFE2019Data.csv')
 
 # Part 1a
 # Create a histogram of the variable CombCO2. Consider this the population. 
