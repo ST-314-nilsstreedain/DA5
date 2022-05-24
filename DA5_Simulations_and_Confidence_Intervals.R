@@ -11,8 +11,7 @@ CarData.Population <- read.csv(file.choose(), header = TRUE)
 
 # Part 1a
 # Create a histogram of the variable CombCO2. Consider this the population. 
-hist(CarData.Population$CombCO2, main = "Population Vehicles Sold in US", 
-     xlab = "Combined Carbon Dioxide Emissions", col = "lightgreen")
+hist(CarData.Population$CombCO2, main = "Population Vehicles Sold in US", xlab = "Combined Carbon Dioxide Emissions", col = "lightgreen")
 
 # What is the size of the population. In other words, how many vehicles are represented in the dataset? 
 # USe the command length() to find, N = ? 
